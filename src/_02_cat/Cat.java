@@ -34,7 +34,7 @@ public class Cat {
 		if (name == null)
 			System.out.println("i don't know my own name!");
 		else
-			System.out.println("my name is " + name);
+			System.out.print("my name is " + name);
 	}
 
 	void kill() {
