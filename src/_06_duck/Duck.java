@@ -14,16 +14,14 @@ public class Duck {
 
 
 	}
-	
+	int distance = 0;
 	void quack() {
-		
-		
-		
-		
+		System.out.println("Quackz");
 	}
 	void waddle() {
 		
-		 
+		 distance++;
+		 System.out.println("The duck has waddled "+distance+" meter(s) from the start");
 		
 	}
 	

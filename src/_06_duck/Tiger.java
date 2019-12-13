@@ -3,6 +3,8 @@ package _06_duck;
 public class Tiger {
 public static void main(String[] args) {
 	Duck duck = new Duck("Candy", 1);
+	duck.quack();
+	duck.waddle();
 }
 String food;
 String action;
